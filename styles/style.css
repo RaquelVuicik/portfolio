@@ -183,14 +183,14 @@ body {
 }
 
 .apresentacao__imagem2 {
-    width: 70%;
+    width: 80%;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
 
 .apresentacao__imagem3 {
-    width: 120%;
+    width: 140%;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
