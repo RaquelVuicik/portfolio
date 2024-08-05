@@ -78,10 +78,22 @@ body {
 }
 
 .apresentacao__conteudo3 {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apresentacao__conteudo4 {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+.apresentacao__conteudo5 {
+    width: 35%;
+    flex: 1;
 }
 
 .apresentacao__conteudo__titulo {
@@ -171,8 +183,10 @@ body {
 }
 
 .apresentacao__imagem2 {
-    width: 15%;
-    align-self: flex-start;
+    width: 70%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 .apresentacao__imagem3 {
