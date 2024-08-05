@@ -78,11 +78,6 @@ body {
     flex: 1;
 }
 
-.apresentacao__conteudo3 {
-    flex: 1;
-}
-
-
 .apresentacao__conteudo__titulo {
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
@@ -175,9 +170,6 @@ body {
 
 .apresentacao__imagem3 {
     width: 150%;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
 }
 
 .apresentacao__conteudo2__img {
