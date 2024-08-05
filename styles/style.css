@@ -57,12 +57,16 @@ body {
     
 }
 
-.apresentacao3 {
+/* .apresentacao3 {
     padding: 5% 10%;
     display: flex;
     justify-content: space-evenly;
     gap: 80px;
-    
+} */
+
+.apresentacao2__space-evenly {
+    padding: 5% 10%;
+    justify-content: space-evenly;
 }
 
 .apresentacao__conteudo {
@@ -237,13 +241,6 @@ body {
         padding: 5%;
     }
 
-    /* .apresentacao__conteudo2 {
-        width: auto;
-    }
-    .apresentacao__conteudo2__img {
-        width: 45%;
-        padding-left: 25%;
-    } */
     .apresentacao3 {
         flex-direction: column-reverse;
         align-items: center;
