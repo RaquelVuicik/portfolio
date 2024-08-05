@@ -60,8 +60,7 @@ body {
 .apresentacao3 {
     padding: 5% 15%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 80px;
     
 }
@@ -76,6 +75,13 @@ body {
 .apresentacao__conteudo2 {
     width: 50%;
     flex: 1;
+}
+
+.apresentacao__conteudo3 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -166,10 +172,14 @@ body {
 
 .apresentacao__imagem2 {
     width: 15%;
+    align-self: flex-start;
 }
 
 .apresentacao__imagem3 {
     width: 120%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 .apresentacao__conteudo2__img {
