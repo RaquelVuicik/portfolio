@@ -235,6 +235,10 @@ body {
         padding: 5%;
     }
 
+    .apresentacao__imagem {
+        display: block;
+    }
+
     .apresentacao__conteudo {
         width: auto;
     }
@@ -261,4 +265,9 @@ body {
     .apresentacao__imagem2 {
         display: none;
     }
+
+    .rodape {
+        font-size: 1.2rem;
+    }
+    
 }
