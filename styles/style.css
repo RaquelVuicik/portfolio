@@ -238,6 +238,23 @@ body {
     .apresentacao {
         flex-direction: column-reverse;
         padding: 5%;
+        gap: 60px;
+    }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 1.75rem;
+    }
+
+    .apresentacao__conteudo__paragrafo {
+        font-size: 1.2rem;
+    }
+
+    .apresentacao__links__subtitulo {
+        font-size: 1.35rem;
+    }
+
+    .apresentacao__links__navegacao {
+        font-size: 1.35rem;
     }
 
     .apresentacao__imagem {
