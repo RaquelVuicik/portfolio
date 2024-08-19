@@ -236,7 +236,10 @@ body {
     }
 
     .apresentacao__imagem {
+        width: 50%;
+        height: 50vw;
         display: block;
+
     }
 
     .apresentacao__conteudo {
